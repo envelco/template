@@ -1,5 +1,5 @@
 import "./App.css"
-import Query from "@tanstack/react-query"
+import * as Query from "@tanstack/react-query"
 import React from "react"
 
 const queryClient = new Query.QueryClient()
