@@ -20,6 +20,6 @@ function App() {
 
 export default App
 
-const ENVEL_API_ENDPOINT = "http://localhost:4000"
+const ENVEL_API_ENDPOINT = "https://api.envel.co"
 
 // Insert code below this line
