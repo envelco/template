@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@envelco/design-system": "^1.0.2",
-    "@envelco/runtime": "^1.0.0",
+    "@envelco/runtime": "^1.0.1",
     "@tailwindcss/vite": "^4.0.5",
     "@tanstack/react-query": "^5.66.0",
     "react": "^19.0.0",

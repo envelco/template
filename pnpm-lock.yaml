@@ -12,8 +12,8 @@ importers:
         specifier: ^1.0.2
         version: 1.0.2(typescript@5.7.3)
       '@envelco/runtime':
-        specifier: ^1.0.0
-        version: 1.0.0(@envelco/design-system@1.0.2(typescript@5.7.3))(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(typescript@5.7.3)
+        specifier: ^1.0.1
+        version: 1.0.1(@envelco/design-system@1.0.2(typescript@5.7.3))(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(typescript@5.7.3)
       '@tailwindcss/vite':
         specifier: ^4.0.5
         version: 4.0.5(vite@6.1.0(jiti@2.4.2)(lightningcss@1.29.1))
@@ -151,8 +151,8 @@ packages:
     peerDependencies:
       typescript: ^5.0.0
 
-  '@envelco/runtime@1.0.0':
-    resolution: {integrity: sha512-125q89HLJWfMBAtX13ZmgKcNVBzr1uAWy9t2oZlUXlOPmkM55t51hqQVTqr4XOUqK+jzGha326SV24FMLUffiw==}
+  '@envelco/runtime@1.0.1':
+    resolution: {integrity: sha512-brh1HxID/qKCqph8WyX9Tt1ITAZccfgeprBm/NAzR1AcEl2kpGJm2Zel5Hc/Nh/j+O8xc4HFU3I7MHxBkhESJw==}
     peerDependencies:
       '@envelco/design-system': workspace:*
       react: ^18.2.0
@@ -1717,7 +1717,7 @@ snapshots:
       tailwind-merge: 2.6.0
       typescript: 5.7.3
 
-  '@envelco/runtime@1.0.0(@envelco/design-system@1.0.2(typescript@5.7.3))(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(typescript@5.7.3)':
+  '@envelco/runtime@1.0.1(@envelco/design-system@1.0.2(typescript@5.7.3))(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(typescript@5.7.3)':
     dependencies:
       '@envelco/design-system': 1.0.2(typescript@5.7.3)
       react: 19.0.0
