@@ -1,4 +1,5 @@
 import "./App.css"
+import { AuthProvider } from "@envelco/runtime"
 import * as Query from "@tanstack/react-query"
 import React from "react"
 
@@ -8,7 +9,12 @@ const ENVEL_API_ENDPOINT = import.meta.env.VITE_ENVEL_API_ENDPOINT
 function App() {
   return (
     <Query.QueryClientProvider client={queryClient}>
-      <EnvelApp />
+      <AuthProvider
+        apiEndpoint={ENVEL_API_ENDPOINT}
+        mainAppDomain="https://envelco.co"
+      >
+        <EnvelApp />
+      </AuthProvider>
     </Query.QueryClientProvider>
   )
 }
