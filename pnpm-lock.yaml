@@ -12,8 +12,8 @@ importers:
         specifier: ^1.0.2
         version: 1.0.2(typescript@5.7.3)
       '@envelco/runtime':
-        specifier: ^1.0.5
-        version: 1.0.5(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(typescript@5.7.3)
+        specifier: ^1.0.6
+        version: 1.0.6(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(typescript@5.7.3)
       '@tailwindcss/vite':
         specifier: ^4.0.5
         version: 4.0.5(vite@6.1.0(jiti@2.4.2)(lightningcss@1.29.1))
@@ -151,8 +151,8 @@ packages:
     peerDependencies:
       typescript: ^5.0.0
 
-  '@envelco/runtime@1.0.5':
-    resolution: {integrity: sha512-Tba5z52nrr8Hcb0r1FnARYsIFuL2izSxiIixaQ5oQ1Z+QfNTMRoN3ipBTrgGJDnIuNW72vAsfEq9UEXKt8GwSg==}
+  '@envelco/runtime@1.0.6':
+    resolution: {integrity: sha512-OPXYRrLT1aIp0U6CyNIHhgp2liCmu1UsndTQ/qu8bOHI4Ra/PNHKRLcT8T/mE0dniHToPWbc9RwvAGZ40G8wAw==}
     peerDependencies:
       react: ^19.0.0
       react-dom: ^19.0.0
@@ -1716,7 +1716,7 @@ snapshots:
       tailwind-merge: 2.6.0
       typescript: 5.7.3
 
-  '@envelco/runtime@1.0.5(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(typescript@5.7.3)':
+  '@envelco/runtime@1.0.6(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(typescript@5.7.3)':
     dependencies:
       react: 19.0.0
       react-dom: 19.0.0(react@19.0.0)
